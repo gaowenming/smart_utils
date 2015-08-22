@@ -138,46 +138,6 @@
 			<version>1.9.13</version>
 		</dependency>
 
-		<!-- log4j -->
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.16</version>
-		</dependency>
-
-		<!-- *********************** -->
-		<!-- ********slf4j日志******* -->
-		<!-- *********************** -->
-		<!-- (Jakarta Commons Logging)jcl-over-slf4j 1.6.4 -->
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>jcl-over-slf4j</artifactId>
-			<version>1.7.7</version>
-		</dependency>
-
-		<!-- log4j-over-slf4j 1.6.4 -->
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>log4j-over-slf4j</artifactId>
-			<version>1.7.7</version>
-		</dependency>
-
-		<!-- logback-classic 1.0.0 依赖slf4j-api.jar和 logback-core.jar。 -->
-		<!-- 将日志系统的依赖设定为<scope>runtime</scope>，因为应用程序永远不需要直接调用日志系统，而是通过SLF4J或JCL这样的日志框架来调用它们。 -->
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<version>1.1.2</version>
-			<scope>runtime</scope>
-		</dependency>
-
-		<!-- logback-core 1.0.0 -->
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-core</artifactId>
-			<version>1.1.2</version>
-		</dependency>
-
 		<!-- poi -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -202,8 +162,6 @@
 			<artifactId>jdom</artifactId>
 			<version>2.0.2</version>
 		</dependency>
-
-
 
 		<dependency>
 			<groupId>junit</groupId>
